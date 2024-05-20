@@ -10,8 +10,8 @@ const routes: Routes = [
   },
   {
     path: 'table-client', component: TableComponent,
-    canActivate: [isAuthenticatedGuard],
-    canMatch: [isAuthenticatedGuard]
+/*     canActivate: [isAuthenticatedGuard],
+    canMatch: [isAuthenticatedGuard] */
   },
   {
     path: '**',

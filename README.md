@@ -9,4 +9,4 @@ git clone https://github.com/Aljotar/test-angular
 npm install
 ng serve
 
-Deploy en Vercel :
+Deploy en Vercel : https://test-angular-vq9l.vercel.app/auth/login
