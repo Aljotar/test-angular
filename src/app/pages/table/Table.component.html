@@ -1,0 +1,4 @@
+<div class="container" *ngIf="items.length > 0" >
+    <button mat-flat-button class="button-newClient" type="submit" color="primary" (click)="openFormModal()">New Client</button>
+    <tots-table #tableComp [config]="config" (onAction)="onTableAction($event)"></tots-table>
+</div>

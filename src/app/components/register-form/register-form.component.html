@@ -1,0 +1,7 @@
+<div class="container">
+    <h1 class="mat-h1 mat-primary">Register</h1>
+    <tots-form #form [fields]="fields" [item]="item" (onAction)="onActionForm($event)"></tots-form>
+    <div *ngIf="this.errorForm" class="alert">
+        {{errorForm}}
+    </div>
+</div>

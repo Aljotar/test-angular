@@ -1,0 +1,54 @@
+.cointaner{
+  width: 500px;
+  margin: auto;
+  padding: 25px;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.title {
+  color:  #2088ff;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2rem;
+}
+
+.button-confirm {
+  border-radius: 4px;
+  color: #ffffff;
+  background-color: #c53131;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 25%;
+  text-align: center;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 21px;
+  margin-left: 1%;
+}
+
+.button-cancel {
+  border-radius: 4px;
+  color: #272727;
+  border-radius: 4px;
+  background: #e6e6e6;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 25%;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 21px;
+  margin-right: 1%;
+
+}
